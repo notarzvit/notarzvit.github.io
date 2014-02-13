@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: post
 title: Умная программа заменила Excel для нотариусов Украины
 ---
 
