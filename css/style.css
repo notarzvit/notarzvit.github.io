@@ -19,6 +19,10 @@ h1 {
 	margin: 0 auto .5em;
 }
 
+h1 {
+	text-align: center;
+}
+
 .post-content p {
 	font-size: 1.35em;
 	line-height: 1.6em;
