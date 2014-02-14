@@ -9,6 +9,11 @@ body {
 	font-family: "kepler-std", Georgia, Times, serif;
 }
 
+.logo-header {
+	text-align: center;
+	margin-top: 1em;
+}
+
 h1 {
 	color: #444444;
 	font-family: "acta-display", Georgia, Times, serif;
