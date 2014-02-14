@@ -6,8 +6,12 @@ title: Блог нотариусов / НотарЗвіт
 <ul class="list-unstyled">
 	{% for post in site.posts %}
 	<li>
-		<span class="post-date-in-list">{{ post.date | date: "%d.%m.%Y" }}</span>
-		<a href="{{ post.url }}">{{ post.list_title }}</a>
+		<p>
+			<a href="{{ post.url }}">{{ post.list_title }}</a><br/>
+			{{ post.excerpt }}
+			<span class="post-date-in-list">{{ post.date | date: "%d.%m.%Y" }}</span><br/>
+		</p>
+
 	</li>
 	{% endfor %}
 </ul>
