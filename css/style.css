@@ -100,7 +100,7 @@ a:hover {
 	font-weight: bold;
 	text-decoration: none;
 }
-.posts-list a.title:hover {
+.posts-list a.title:hover  {
 	text-decoration: underline;
 	color: #477b96;
 }
