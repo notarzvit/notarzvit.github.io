@@ -18,6 +18,7 @@ body {
 .logo-header {
 	text-align: center;
 	margin-top: 1em;
+	margin-bottom: 1em;
 }
 
 h1 {
@@ -88,4 +89,14 @@ a:hover {
 
 .footer-copyright p {
 	margin-bottom: 1em;
+}
+
+.posts-list li {
+	margin-bottom: 1em;
+}
+.posts-list a.title {
+	font-size: 1.2em;
+	color: #444444;
+	font-weight: bold;
+	text-decoration: none;
 }
