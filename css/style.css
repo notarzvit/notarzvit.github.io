@@ -33,3 +33,7 @@ h1 {
 .post-content p + p {
 	text-indent: 2em;
 }
+
+.post-content .img-thumbnail {
+	max-width: 80%;
+}
