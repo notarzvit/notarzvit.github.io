@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Умная программа заменила Excel для нотариусов Украины
+meta_title: Лучше, чем Excel для нотариусов
+list_title: Лучше, чем Excel для нотариусов
+author: anton
 ---
 
 # Лучше, чем Excel для нотариусов
