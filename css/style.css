@@ -7,6 +7,10 @@
 body {
 	overflow-y: scroll;
 	font-family: "kepler-std", Georgia, Times, serif;
+
+	font-size: 15px;
+	line-height: 1.6em;
+	font-weight: 300;
 }
 
 .logo-header {
@@ -17,7 +21,7 @@ body {
 h1 {
 	color: #444444;
 	font-family: "acta-display", Georgia, Times, serif;
-	font-size: 2.813em;
+	font-size: 2.4em;
 	font-weight: 400;
 	letter-spacing: -1px;
 	line-height: 1.25em;
@@ -28,10 +32,9 @@ h1 {
 	text-align: center;
 }
 
-.post-content p {
+.post-content {
 	font-size: 1.35em;
 	line-height: 1.6em;
-	font-weight: 300;
 	text-align: justify;
 }
 
@@ -41,4 +44,28 @@ h1 {
 
 .post-content .img-thumbnail {
 	max-width: 80%;
+}
+
+a, a:visited, a:hover {
+	color: #477b96;
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.post-footer {
+	font-size: 1.04em;
+	border-top: 2px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	padding: 1em 0 .5em;
+	text-align: center;
+}
+
+.post-author {
+	font-size: 1.2em;
+	border-bottom: 2px solid #CCC;
+	font-family: "ProximaNova", "freight-sans-pro", Helvetica, Arial, sans-serif;
+	padding: .5em 0 1.5em;
 }
