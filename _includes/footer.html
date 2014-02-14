@@ -1,5 +1,33 @@
 </div>
 
+	<div class="row footer-copyright">
+		<div class="col-sm-12">
+			<p>Если Вы получаете удовольствие от чтения этого блога, попробуйте считать отчеты в Минюст с помощью <a href="https://notarzvit.com" target="_blank">НотарЗвіт</a></p>
+			<p>Все права на содержание сайта защищены НотарЗвіт &copy;2011-{{ site.time | date: '%Y' }}.</p>
+			<p>
+				{% assign day_num = site.time | date: '%w' %}
+				{% case day_num %}
+				{% when '1' %}
+					Отличного начала недели!
+				{% when '2' %}
+					Пусть вторник будет приятным.
+				{% when '3' %}
+					Хорошей среды.
+				{% when '4' %}
+					Пусть четверг пройдет хорошо.
+				{% when '5' %}
+					Приятной пятницы.
+				{% when '6' %}
+					Прекрасной субботы.
+				{% when '0' %}
+					Наслаждайтесь выходными.
+				{% else %}
+					Хорошего дня # {{ day_num }}
+				{% endcase %}
+			</p>
+		</div>
+	</div>
+
 <script src="/js/jquery-2.1.0.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
 </body>

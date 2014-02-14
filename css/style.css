@@ -11,6 +11,8 @@ body {
 	font-size: 16px;
 	line-height: 1.6em;
 	font-weight: 300;
+
+	color: #333333;
 }
 
 .logo-header {
@@ -73,4 +75,17 @@ a:hover {
 	border-bottom: 2px solid #CCC;
 	font-family: "ProximaNova", "freight-sans-pro", Helvetica, Arial, sans-serif;
 	padding: .5em 0 1.5em;
+}
+
+.footer-copyright {
+	font-family: "ProximaNova", "freight-sans-pro", Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	margin-top: 2em;
+	padding-bottom: 2em;
+	text-align: center;
+}
+
+.footer-copyright p {
+	margin-bottom: 1em;
 }
