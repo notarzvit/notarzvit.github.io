@@ -4,31 +4,37 @@
 		<div class="col-sm-12">
 			<p>Если Вы получаете удовольствие от чтения этого блога, попробуйте считать отчеты в Минюст с помощью <a href="https://notarzvit.com" target="_blank">НотарЗвіт</a></p>
 			<p>Все права на содержание сайта защищены НотарЗвіт &copy;2011-{{ site.time | date: '%Y' }}.</p>
-			<p>
-				{% assign day_num = site.time | date: '%w' %}
-				{% case day_num %}
-				{% when '1' %}
-					Отличного начала недели!
-				{% when '2' %}
-					Пусть вторник будет приятным.
-				{% when '3' %}
-					Хорошей среды.
-				{% when '4' %}
-					Пусть четверг пройдет хорошо.
-				{% when '5' %}
-					Приятной пятницы.
-				{% when '6' %}
-					Прекрасной субботы.
-				{% when '0' %}
-					Наслаждайтесь выходными.
-				{% else %}
-					Хорошего дня # {{ day_num }}
-				{% endcase %}
-			</p>
+			<p id="have-a-nice-day"></p>
 		</div>
 	</div>
 
 <script src="/js/jquery-2.1.0.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
+
+	<script>
+		$(function(){
+			var d = (new Date()).getDay(),
+				s = ''
+
+			if (d == 1)
+				s = 'Отличного начала недели!'
+			else if (d == 2)
+				s = 'Пусть вторник будет приятным.'
+			else if (d == 3)
+				s = 'Хорошей среды.'
+			else if (d == 4)
+				s = 'Пусть четверг пройдет хорошо.'
+			else if (d == 5)
+				s = 'Приятной пятницы.'
+			else if (d == 6)
+				s = 'Прекрасной субботы.'
+			else if (d == 0)
+				s = 'Наслаждайтесь выходными.'
+			else
+				alert(d)
+
+			$('#have-a-nice-day').text(s)
+		})
+	</script>
 </body>
 </html>
